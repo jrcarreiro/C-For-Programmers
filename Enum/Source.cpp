@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //define MONTHS as having 12 possible values
+    enum MONTHS {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};
+
+    //define bestMonth as a variable type MONTHS
+    MONTHS bestMonth;
+
+    //assign bestMonth one of the values of MONTHS
+    bestMonth = May;
+
+    //now we can check the value of bestMonths just 
+    //like any other variable
+    if (bestMonth == May)
+    {
+	   cout << "May relly is the best month ever" << endl;
+    }
+
+    return 0;
+
+}
