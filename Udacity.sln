@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindMinAndMax", "FindMinAnd
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayPractice", "ArrayPractice\ArrayPractice.vcxproj", "{BC4BFB12-838B-488A-A5E1-A7CACBF06B97}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArraySearch", "ArraySearch\ArraySearch.vcxproj", "{4D0D36EE-422A-46B3-A3DF-86423694E39A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{BC4BFB12-838B-488A-A5E1-A7CACBF06B97}.Release|x64.Build.0 = Release|x64
 		{BC4BFB12-838B-488A-A5E1-A7CACBF06B97}.Release|x86.ActiveCfg = Release|Win32
 		{BC4BFB12-838B-488A-A5E1-A7CACBF06B97}.Release|x86.Build.0 = Release|Win32
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Debug|x64.ActiveCfg = Debug|x64
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Debug|x64.Build.0 = Debug|x64
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Debug|x86.Build.0 = Debug|Win32
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Release|x64.ActiveCfg = Release|x64
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Release|x64.Build.0 = Release|x64
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Release|x86.ActiveCfg = Release|Win32
+		{4D0D36EE-422A-46B3-A3DF-86423694E39A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
