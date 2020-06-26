@@ -15,7 +15,7 @@ int main()
 
     int arr[row][col];
     int vector[row], product[row];
-    sum;
+    int sum;
 
     for (int i = 0; i < row; i++)
     {
