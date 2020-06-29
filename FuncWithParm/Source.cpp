@@ -1,10 +1,6 @@
 #include <iostream>
 #include "Header.h"
 
-using namespace std;
-
-void printProduct(int m1, int m2, int product);
-
 int main()
 {
     int m1 = 4;
