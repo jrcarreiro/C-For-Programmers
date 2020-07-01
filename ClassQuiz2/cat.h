@@ -8,6 +8,7 @@ class Cat
     int age;
 
 public:
+    Cat();
     void setName(string nameIn);
     void setBreed(string breedIn);
     void setAge(int ageIn);
@@ -17,6 +18,14 @@ public:
     int getAge();
     void printInfo();
 };
+
+Cat::Cat()
+{
+    cout << "Assigning initial values in the constructor" << endl;
+    name = "Opa";
+    breed = "Sopa";
+    age = 12;
+}
 
 void Cat::setName(string nameIn)
 {
