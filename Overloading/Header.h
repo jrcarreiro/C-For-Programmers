@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int findSmallerInt(int input1, int input2);
-float findSmallerFloat(float input1, float input2);
-char findSmallerChar(char input1, char input2);
+int findSmaller(int input1, int input2);
+float findSmaller(float input1, float input2);
+char findSmaller(char input1, char input2);
 
-int findSmallerInt(int input1, int input2)
+int findSmaller(int input1, int input2)
 {
     if (input1 < input2)
     {
@@ -14,7 +14,7 @@ int findSmallerInt(int input1, int input2)
     return input2;
 }
 
-float findSmallerFloat(float input1, float input2)
+float findSmaller(float input1, float input2)
 {
     if (input1 < input2)
     {
@@ -23,7 +23,7 @@ float findSmallerFloat(float input1, float input2)
     return input2;
 }
 
-char findSmallerChar(char input1, char input2)
+char findSmaller(char input1, char input2)
 {
     if (input1 < input2)
     {

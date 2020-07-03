@@ -9,9 +9,9 @@ int main()
     char c1 = 'c';
     char c2 = 'z';
 
-    cout << findSmallerInt(a, b) << " is the smaller of " << a << " and " << b << "\n";
-    cout << findSmallerFloat(f1, f2) << " is the smaller of " << f1 << " and " << f2 << "\n";
-    cout << findSmallerChar(c1, c2) << " is the smaller of " << c1 << " and " << c2 << "\n";
+    cout << findSmaller(a, b) << " is the smaller of " << a << " and " << b << "\n";
+    cout << findSmaller(f1, f2) << " is the smaller of " << f1 << " and " << f2 << "\n";
+    cout << findSmaller(c1, c2) << " is the smaller of " << c1 << " and " << c2 << "\n";
 
     return 0;
 } 
